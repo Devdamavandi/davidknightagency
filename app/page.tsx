@@ -78,9 +78,15 @@ export default function Home() {
       </div>
       {/* CALL BUTTON */}
       <div className="mb-20 mt-6">
-        <button className="px-6 py-4 text-gray-800" style={{ backgroundColor: "#40E0D0" }}>
-          BOOK A FREE STRATEGY CALL
-        </button>
+          <a
+            href="https://wa.me/+989220295361"
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button className="bg-cyan-500 text-white px-8 py-4 hover:bg-cyan-600/85" style={{ backgroundColor: "#40E0D0" }}>
+              BOOK A FREE STRATEGY CALL
+            </button> 
+        </a>
       </div>
       {/* Carousel Section */}
       <div className="mb-4">
@@ -240,7 +246,7 @@ export default function Home() {
       {/* WhatsApp & Email */}
       <div className='flex flex-col space-y-2 items-center mb-10'>
         <a
-            href="https://wa.me/+989900405829"
+            href="https://wa.me/+989220295361"
             target='_blank'
             rel='noopener noreferrer'
             className='bg-cyan-500 text-white px-8 py-4 rounded'
